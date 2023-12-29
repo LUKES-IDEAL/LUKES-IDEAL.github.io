@@ -4,28 +4,33 @@
     <title>IUKE'S IDEAL</title>
 </head>
 <body>
-    <div id = "layer_background">
-        <img id = "background" src = "res/futuristic.jpg"></img>
+    <div id = "layer_background" style = "position: fixed;">
+        <img id = "background" src = "res/futuristic.jpg" height = "500" width = "1000" style = "position: fixed;"></img>
+
+        <div id = "layer_enemies">
+
+        </div>
+    
+        <div id = "layer_player">
+            <img id = "player" src = "res/player_test.jpg" style = "position: absolute; top: 300px; left: 50px;"><img>
+        </div>
+    
+        <div id = "layer_foreground">
+    
+        </div>
+    
+        <div id = "layer_top">
+
+        </div>
+
     </div>
 
-    <div id = "layer_enemies">
+    <p id = "log" style = "position: fixed; top: 500px"></p>
 
-    </div>
-
-    <div id = "layer_player">
-
-    </div>
-
-    <div id = "layer_foreground">
-
-    </div>
-
-    <div id = "layer_top">
-
-    </div>
+    <input type = "text" id = "key" style="position: fixed; top: 600px;">
 </body>
 
-<script>
+<script src = "js/main.js">
 
 </script>
 </html>
